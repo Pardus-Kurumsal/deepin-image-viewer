@@ -1,5 +1,6 @@
-deepin-image-viewer (1.0.0) unstable; urgency=medium
+deepin-image-viewer (1.2.14-1) zesty; urgency=low
 
-  * Initial release 
+  [ shuttle ]
+  * Auto Version update.
 
- -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 24 Feb 2016 14:15:54 +0800
+ -- lilongyu <leaeasy@gmail.com>  Thu, 03 Aug 2017 10:08:14 +0800
