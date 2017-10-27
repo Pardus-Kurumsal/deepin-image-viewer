@@ -1,0 +1,90 @@
+QLabel#TopleftLogo {
+    border-image: url(:/resources/dark/images/deepin_image_viewer_24.png);
+}
+
+QWidget#ImagesViewContent {
+    background: #1B1B1B;
+}
+
+QListView#AlbumsView {
+    background-color: transparent;
+}
+
+QPushButton#ImportFromTimelineButton {
+    font-size: 12px;
+    color: #52abff;
+    outline: none;
+    background: transparent;
+    border: none;
+}
+
+QPushButton#ImportFromTimelineButton:hover {
+    color: #54D7FF;
+}
+
+QPushButton#ImportFromTimelineButton:pressed {
+    color: #01BDFF;
+}
+
+QLabel#ImportFrameTooltip {
+    color: #616161;
+    font-size: 12px;
+}
+
+PushButton#ReturnBtn {
+    qproperty-normalPic: url(:/resources/dark/images/return_normal.png);
+    qproperty-hoverPic: url(:/resources/dark/images/return_hover.png);
+    qproperty-pressPic: url(:/resources/dark/images/return_press.png);
+    qproperty-normalColor: rgba(255, 255, 255, .6);
+    qproperty-hoverColor: rgba(255, 255, 255, 1);
+    qproperty-pressColor: rgba(1, 188, 255, 1);
+    font-size: 12px;
+}
+
+ImageButton#TimelineBtn {
+    qproperty-normalPic: url(:/resources/dark/images/timeline_normal.png);
+    qproperty-hoverPic: url(:/resources/dark/images/timeline_hover.png);
+    qproperty-pressPic: url(:/resources/dark/images/timeline_press.png);
+}
+
+ImageButton#AlbumBtn {
+    qproperty-normalPic: url(:/resources/dark/images/album_press.png);
+    qproperty-hoverPic: url(:/resources/dark/images/album_press.png);
+    qproperty-pressPic: url(:/resources/dark/images/album_press.png);
+}
+
+ImageButton#SynchroBtn {
+    qproperty-normalPic: url(:/resources/dark/images/synchro_normal.png);
+    qproperty-hoverPic: url(:/resources/dark/images/synchro_hover.png);
+    qproperty-pressPic: url(:/resources/dark/images/synchro_press.png);
+}
+
+QLabel#ReturnLabel, QLabel#TooltipTimelineLabel {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+QLabel#CountLabel, QLabel#ImportLabel {
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: light;
+}
+
+QLineEdit#AlbumNameLineEdit {
+    border: 1px solid #01bdff;
+    border-radius: 3;
+    color: #ffffff;
+    selection-background-color: #01bdff;
+    background: transparent;
+}
+
+QLabel#AlbumInfoTipsLabel {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+TopAlbumTips {
+    height: 24px;
+    font-size: 12px;
+    border-image: url(:/resources/dark/images/lineargradient.png) repeat;
+}
+

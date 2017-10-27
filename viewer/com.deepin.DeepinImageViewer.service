@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=com.deepin.DeepinImageViewer
+Exec=/usr/bin/deepin-image-viewer
